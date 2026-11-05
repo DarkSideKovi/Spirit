@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Spirit.Domain
 {
-    public class TransportStrategyFactory
+    public sealed class TransportStrategyFactory : ITransportStrategyFactory
     {
         private readonly IRateCardLookup _rateCardLookup;
         public TransportStrategyFactory(IRateCardLookup rateCardLookup)

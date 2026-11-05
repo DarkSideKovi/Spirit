@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Spirit.Domain
 {
-    public class LandTransportStrategy : ITransportStrategy
+    public sealed class LandTransportStrategy : ITransportStrategy
     {
         public TransportType Type => TransportType.Land;
         private readonly RateCard _rates;

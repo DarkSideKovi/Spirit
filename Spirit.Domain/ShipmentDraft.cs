@@ -6,13 +6,13 @@ namespace Spirit.Domain
 {
     public sealed class ShipmentDraft
     {
-        public int CustomerId { get; set; }
-        public required string Reference { get; set; }
-        public TransportType TransportType { get; set; }
-        public required string Origin { get; set; }
-        public required string Destination { get; set; }
-        public int WeightKg { get; set; }
-        public int VolumeCbm { get; set; }
-        public int DistanceKm { get; set; }
+        public Guid CustomerID { get; init; }
+        public required string Reference { get; init; }
+        public TransportType TransportType { get; init; }
+        public required string Origin { get; init; }
+        public required string Destination { get; init; }
+        public int WeightKg { get; init; }
+        public int VolumeCbm { get; init; }
+        public int DistanceKm { get; init; }
     }
 }
