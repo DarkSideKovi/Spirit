@@ -1,0 +1,6 @@
+@Spirit_HostAddress = http://localhost:5080
+
+GET {{Spirit_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Spirit.Application/Spirit.Application.csproj" />
+  <Project Path="Spirit.csproj" />
+  <Project Path="Spirit.Domain.Tests/Spirit.Domain.Tests.csproj" />
+  <Project Path="Spirit.Domain/Spirit.Domain.csproj" />
+  <Project Path="Spirit.Infrastructure/Spirit.Infrastructure.csproj" />
+</Solution>
